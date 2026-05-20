@@ -4,11 +4,11 @@ authors:
   - family-names: "Crago"
     given-names: "Neil"
     affiliation: "Independent Researcher"
-title: "Deterministic Resolution of the Quantum State via a Discrete Prime‑Indexed Manifold"
+title: "The Generator Field: A Deterministic Tensor-Field Framework for Quantum Phase Evolution and State Finalization"
 version: 1.0.0
 date-released: "2026-05-03"
-url: "https://github.com/Neil-Crago/M46"
-doi: "10.5281/zenodo.???????"
+url: "https://github.com/Neil-Crago/gen_field"
+DOI: 10.5281/zenodo.20305180
 abstract: >-
   We propose a deterministic substrate underlying the standard quantum wave function. By re-placing the continuous complex amplitude with a discrete triadic state vector S(A) = (T total, Egrid, φgeom), we show that quantum phase evolution corresponds to a cyclic accumulation of binding error modulo the hydrogen mass unit. The transition from an uncohered state to a finalized outcome is governed by a discrete manifold M46 containing 12 prime‑indexed attractors. We demonstrate that the absence of a true midpoint between sequential primes enforces an intrinsic asymmetry that eliminates stochastic collapse. The resulting deterministic "Proximity Snap" selects the nearest prime anchor, providing a physically computable mechanism for state finalization. This framework yields a finite, quantized phase bandwidth of 60 units and resolves the measurement problem without invoking intrinsic randomness.
 

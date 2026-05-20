@@ -1,4 +1,4 @@
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.??????-blue.svg)](https://doi.org/10.5281/zenodo.??????)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20305180-blue.svg)](https://doi.org/10.5281/zenodo.20305180)
 
 This repository contains the source files, manuscript, and supplemental materials for:
 
@@ -23,9 +23,9 @@ Its local deformations encode:
 
 These correspond to the triadic state vector:
 
-\[
-S(A) = (T_{\mathrm{total}}, E_{\mathrm{grid}}, \phi_{\mathrm{geom}})
-\]
+
+$$S(A) = (T_{\mathrm{total}}, E_{\mathrm{grid}}, \phi_{\mathrm{geom}})$$
+
 
 The Generator Field provides a unified, deterministic substrate for:
 
@@ -52,15 +52,11 @@ Fractional phase states correspond to elastic tensor defects that relax determin
 
 A piecewise-quadratic potential enforcing deterministic collapse:
 
-\[
-Q_{\mathrm{snap}} = K_{TCO}\,\Delta\phi
-\]
+$$Q_{\mathrm{snap}} = K_{TCO}\,\Delta\phi$$
 
 with the universal constant:
 
-\[
-K_{TCO} = \frac{m_H}{60} = 15.6464\ \text{MeV}
-\]
+$$K_{TCO} = \frac{m_H}{60} = 15.6464\ \text{MeV}$$
 
 ### **Tensor-Strain Dynamics**
 
@@ -77,9 +73,7 @@ Fractional phase states are localized elastic distortions.
 Collapse is not probabilistic.  
 It is a **gradient-flow relaxation** into the nearest prime-sector minimum, with finite collapse time:
 
-\[
-\tau_{\mathrm{snap}} = \frac{1}{\gamma K_{TCO}}
-\]
+$$\tau_{\mathrm{snap}} = \frac{1}{\gamma K_{TCO}}$$
 
 ### **Unified Interactions**
 
@@ -101,21 +95,15 @@ It is a **gradient-flow relaxation** into the nearest prime-sector minimum, with
 
 ### **Lagrangian**
 
-\[
-\mathcal{L} = \mathcal{L}_{\mathrm{el}} + \mathcal{L}_{\mathrm{tor}} + \mathcal{L}_{\mathrm{snap}}
-\]
+$$\mathcal{L} = \mathcal{L}_{\mathrm{el}} + \mathcal{L}_{\mathrm{tor}} + \mathcal{L}_{\mathrm{snap}}$$
 
 ### **Hamiltonian**
 
-\[
-\mathcal{H} = \frac{1}{2}\Pi^2 + \mathcal{H}_{\mathrm{el}} + \mathcal{H}_{\mathrm{tor}} + V[\mathcal{G}]
-\]
+$$\mathcal{H} = \frac{1}{2}\Pi^2 + \mathcal{H}_{\mathrm{el}} + \mathcal{H}_{\mathrm{tor}} + V[\mathcal{G}]$$
 
 ### **Poisson Brackets**
 
-\[
-\{G_{\mu\nu}(x), \Pi_{\alpha\beta}(y)\} = \delta_{\mu\nu,\alpha\beta}\,\delta^{(3)}(x-y)
-\]
+$$\{G_{\mu\nu}(x), \Pi_{\alpha\beta}(y)\} = \delta_{\mu\nu,\alpha\beta}\,\delta^{(3)}(x-y)$$
 
 No quantization.  
 No creation/annihilation operators.  
@@ -130,7 +118,7 @@ Measurement resolves a global constraint, reproducing:
 
 - Bell correlations  
 - GHZ correlations  
-- Tsirelson bound \(2\sqrt{2}\)
+- Tsirelson bound $$(2\sqrt{2})$$
 
 without stochasticity or signaling.
 
@@ -140,8 +128,8 @@ without stochasticity or signaling.
 
 The Generator Field makes **non-negotiable experimental predictions**, including:
 
-- Modified Casimir scaling: \(F \propto 1/d^3\)  
-- Fixed-parameter muon \(g-2\) anomaly  
+- Modified Casimir scaling: $$(F \propto 1/d^3)$$ 
+- Fixed-parameter muon $$(g-2)$$ anomaly  
 - Finite-time collapse  
 - Environment-dependent neutrino oscillations  
 - Elastic dispersion of gravitational waves  
@@ -154,3 +142,4 @@ Any one of these can falsify the theory.
 
 ## Citation
 
+DOI: 10.5281/zenodo.20305180
