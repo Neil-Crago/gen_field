@@ -1,0 +1,1375 @@
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.9.9)  20 MAY 2026 08:53
+ restricted system commands enabled.
+**generator_field.tex
+(./generator_field.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-08-13>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/texlive/2025/texmf-var/luatex-ca
+che/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "c:/texlive/2025/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-
+28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/texlive/2025/texmf-var/luatex-ca
+che/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (c:/texlive/2025/texmf-
+dist/tex/latex/revtex/revtex4-2.cls
+Document Class: revtex4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for
+ documentation)
+ Copyright (c) 2019 American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>
+ Version (4.2d--4.2f): Modified by Mark Doyle and Phelype Oleinik
+ .
+ltxutil[2022/06/05 4.2f utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 356.
+Class revtex4-2 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 492.
+Class revtex4-2 Info: Repairing broken LateX \@sect on input line 814.
+\intertabularlinepenalty=\count273
+\@tbpen=\count274
+\@arstrutbox@hline=\box53
+Class revtex4-2 Info: Repairing broken LaTeX \@xbitor on input line 1845.
+Class revtex4-2 Info: Making \typeout \long on input line 2110.
+ltxfront[2022/06/05 4.2f frontmatter package (AO,DPC,MD)]
+\c@affil=\count275
+\c@collab=\count276
+\absbox=\box54
+ltxgrid[2022/06/05 4.2f page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+\c@linecount=\count277
+\output@latex=\toks17
+\box@size@1=\box55
+\box@size@2=\box56
+\@protection@box=\box57
+\@topmark@saved=\toks18
+\footins@saved=\box58
+\footins@recovered=\box59
+\column@recovered=\box60
+\pagesofar=\box61
+\footsofar=\box62
+\pagegrid@col=\count278
+Class revtex4-2 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5676.
+\c@part=\count279
+\c@section=\count280
+\c@subsection=\count281
+\c@subsubsection=\count282
+\c@paragraph=\count283
+\c@subparagraph=\count284
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\c@figure=\count285
+\fbox@1=\box63
+\c@table=\count286
+\fbox@2=\box64
+\c@video=\count287
+\fbox@4=\box65
+\@bibdataout=\write3
+\widetext@top=\box66
+\widetext@bot=\box67
+Class revtex4-2 Info: Selecting society aps on input line 7669.
+(c:/texlive/2025/texmf-dist/tex/latex/revtex/aps4-2.rtx
+File: aps4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for documentatio
+n)
+Class revtex4-2 Info: RevTeX society APS selected on input line 40.
+)
+Class revtex4-2 Info: Selecting journal prl on input line 7671.
+Class revtex4-2 Info: APS journal PRL selected on input line 7672.
+
+(c:/texlive/2025/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx
+File: aps10pt4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for document
+ation)
+Class revtex4-2 Info: RevTeX pointsize 10pt selected on input line 39.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2025/02/16 v1.05 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen147
+)
+LaTeX Info: Redefining \text on input line 28.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+)
+(c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count288
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count289
+\leftroot@=\count290
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count291
+\DOTSCASE@=\count292
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box68
+\strutbox@=\box69
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count293
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count294
+\dotsspace@=\muskip17
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
+\tag@help=\toks21
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
+\andhelp@=\toks22
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks23
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count300
+)
+Class revtex4-2 Info: Repairing natbib's \BibitemShut on input line 7676.
+
+(c:/texlive/2025/texmf-dist/tex/latex/revtex/revsymb4-2.sty
+Package: revsymb4-2 2022/06/05 4.2f (https://journals.aps.org/revtex/ for docum
+entation)
+LaTeX Info: Redefining \frak on input line 104.
+LaTeX Info: Redefining \Bbb on input line 120.
+LaTeX Info: Redefining \REV@mathfrak on input line 128.
+)
+luaotfload | db : Font names database loaded from C:/texlive/2025/texmf-var/luat
+ex-cache/generic/names/luaotfload-names.luc.gz)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+(c:/texlive/2025/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+LaTeX Info: Redefining \bm on input line 219.
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count301
+\lst@gtempboxa=\box70
+\lst@token=\toks26
+\lst@length=\count302
+\lst@currlwidth=\dimen158
+\lst@column=\count303
+\lst@pos=\count304
+\lst@lostspace=\dimen159
+\lst@width=\dimen160
+\lst@newlines=\count305
+\lst@lineno=\count306
+\lst@maxwidth=\dimen161
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count307
+\lst@skipnumbers=\count308
+\lst@framebox=\box71
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(c:/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(c:/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(c:/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-08-13 L3 programming layer (loader) 
+
+(c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2025-06-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count309
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+(c:/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count310
+\l__fontspec_language_int=\count311
+\l__fontspec_strnum_int=\count312
+\l__fontspec_tmp_int=\count313
+\l__fontspec_tmpa_int=\count314
+\l__fontspec_tmpb_int=\count315
+\l__fontspec_tmpc_int=\count316
+\l__fontspec_em_int=\count317
+\l__fontspec_emdef_int=\count318
+\l__fontspec_strong_int=\count319
+\l__fontspec_strongdef_int=\count320
+\l__fontspec_tmpa_dim=\dimen162
+\l__fontspec_tmpb_dim=\dimen163
+\l__fontspec_tmpc_dim=\dimen164
+
+(c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+)
+(c:/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | cache : Lookup cache loaded from C:/texlive/2025/texmf-var/luatex-c
+ache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: 
+(fontspec)             Font family 'JuliaMono(0)' created for font 'JuliaMono'
+(fontspec)             with options
+(fontspec)             [Ligatures=TeX,WordSpace={1,0,0},HyphenChar=None,Punctua
+tionSpace=WordSpace].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"name:JuliaMono:mode=node;script=latn;language=dflt;+
+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"name:JuliaMono:mode=node;script=latn;language=dflt;+
+tlig;+smcp;"
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"name:JuliaMono/B:mode=node;script=latn;language=dflt
+;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"name:JuliaMono/B:mode=node;script=latn;language=dflt
+;+tlig;+smcp;"
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"name:JuliaMono/I:mode=node;script=latn;language=dflt
+;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"name:JuliaMono/I:mode=node;script=latn;language=dflt
+;+tlig;+smcp;"
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"name:JuliaMono/BI:mode=node;script=latn;language=dfl
+t;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"name:JuliaMono/BI:mode=node;script=latn;language=dfl
+t;+tlig;+smcp;"
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+(c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+Class revtex4-2 Info: Unrecognized LaTeX tabular. Please update this document c
+lass! (Proceeding with fingers crossed.) on input line 82.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 82.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 82.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 82.
+
+(./generator_field.aux)
+\openout1 = generator_field.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+
+(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count321
+\scratchdimen=\dimen165
+\scratchbox=\box72
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen166
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks28
+) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count327
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 82.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 82.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 82.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 82.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 82.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 82.
+LaTeX Font Info:    Redeclaring math accent \check on input line 82.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 82.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 82.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 82.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 82.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/JuliaMono(0)/m/n on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/JuliaMono(0)/b/n on input line 82.
+
+\openout3 = generator_fieldNotes.bib
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
+
+
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
+
+
+(c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.179 \Delta\phi = |x - P^\*
+                            |,
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.180 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.181 ...he normalized phase coordinate and \(P^\*
+                                                  \) is the nearest prime an...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.181 ... normalized phase coordinate and \(P^\*\)
+                                                   is the nearest prime anchor.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.202 \partialt
+                \mathcal{G}{\mu\nu}(x)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2] [3]
+! Undefined control sequence.
+l.396 \partialt
+                \phi_{\mathrm{geom}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.404 \partialt
+                \phi_{\mathrm{geom}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.406 -\,K_{TCO}\,(\phi_{\mathrm{geom}} - P^\*
+                                              ).
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.407 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.412 \phi_{\mathrm{geom}} \longrightarrow P^\*
+                                               ,
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.413 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+<argument> \partial (\partialt 
+                               \mathcal {G}{\mu \nu })
+l.449 ...{\partial(\partialt \mathcal{G}{\mu\nu})}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4]
+! Undefined control sequence.
+l.477 \Pi^{\mu\nu}\,\partialt
+                              \mathcal{G}{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (62.90633pt too wide) detected at line 500
+\OMS/cmsy/m/n/10 H \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 C[]\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 @\OT1/cmr/m/n/10 0\OMS/cmsy/m/n/10 G[]\OT1/cmr/m/n/10 )(\OML/cmm
+/m/it/10 @\OT1/cmr/m/n/10 0\OMS/cmsy/m/n/10 G[]\OT1/cmr/m/n/10 ) + [] \OML/cmm/
+m/it/10  \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 @[]\OT1/cmr/m/n/10 [])(\OML/cmm/m/
+it/10 @\OT1/cmr/m/n/10 0[]) + \OMS/cmsy/m/n/10 H[] \OT1/cmr/m/n/10 + \OMS/cmsy
+/m/n/10 H[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 V\OT1/cmr/m/n/10 [\OMS/cmsy/m/n/
+10 G\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 ;
+ []
+
+! Undefined control sequence.
+l.533 \partialt
+                \mathcal{G}{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.547 \partialt
+                \mathcal{G}{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.557 C^{i j \mu\beta}\,\partiali
+                                 \partialj \mathcal{G}_{\beta\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.557 C^{i j \mu\beta}\,\partiali\partialj
+                                           \mathcal{G}_{\beta\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.559 \kappa\,\partiali
+                       \partial^i \Phi{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.569 K{TCO}\,(\phi{\mathrm{geom}} - P^\*
+                                         ).
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.570 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[5]
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.657 P^\*
+           = \arg\min{p\in M{46}} |x - p|
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.658 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.661 \Delta\phi = |x - P^\*
+                            |
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.662 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.689 \partialt
+                u\nu = -\frac{\delta V{\mathrm{strain}}}{\delta u\nu},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[6]
+! Undefined control sequence.
+l.729 \Thetap
+             (\phi{\mathrm{geom}}),
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.24585pt too wide) detected at line 753
+[] [] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 ;  [] [] \OT1/cmr/m/n/10 = \OML/cmm/m
+/it/10 K[] > \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :
+ []
+
+! Undefined control sequence.
+l.781 \partialt
+                \phi{\mathrm{geom}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.790 \partialt
+                \phi{\mathrm{geom}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.813 \phi_{\mathrm{geom}} \longrightarrow P^\*
+                                               ,
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.814 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[7]
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.831 ...\Delta\phi = |\phi_{\mathrm{geom}} - P^\*
+                                                  |\) is the angular shear.
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.831 ...lta\phi = |\phi_{\mathrm{geom}} - P^\*|\)
+                                                   is the angular shear.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.863 ...{\mathrm{geom}}^{AB} \longrightarrow P^\*
+                                                  ,
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.864 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+<argument> \partial (\partialt 
+                               u\mu )
+l.903 ...l \mathcal{L}}{\partial (\partialt u\mu)}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.917 \mathcal{H} = \pi^\mu \partialt
+                                      u\mu - \mathcal{L}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[8]
+! Undefined control sequence.
+l.973 \partialt
+                \phi{\mathrm{geom}}(x)
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.986 x \longrightarrow P^\*
+                             = \arg\min{p\in M{46}} |x - p|.
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.987 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[9]
+Underfull \hbox (badness 3260) in paragraph at lines 1016--1017
+[]\TU/lmr/m/n/10 This sec-tion for-mal-izes de-ter-min-is-tic non‑lo-cal-ity
+ []
+
+! Undefined control sequence.
+l.1022 \phi{AB} = \phiA
+                        = \phiB \pmod{mH},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1022 \phi{AB} = \phiA = \phiB
+                                \pmod{mH},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (22.21106pt too wide) detected at line 1029
+\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 xA\OT1/cmr/m/n/10 ) = \O
+ML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 xB\OT1/cmr/m/n/10 ) []\OML
+/cmm/m/it/10 :
+ []
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.1036 P^\*
+            = \arg\min{p\in M{46}} |x - p|,
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1037 \]
+         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[10] [11] [12] [13]
+! Undefined control sequence.
+l.1437 \kappai
+               = \left.\frac{\partial^2 \mathcal{V}}{\partial \phi{\mathrm{g...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1464 \partialt
+                 \mathcal{G}{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[14] [15]
+! Undefined control sequence.
+l.1672 \partialt
+                ^2 \Phi\mu
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[16] [17] [18]
+Underfull \hbox (badness 4673) in paragraph at lines 1908--1910
+[]\TU/lmr/m/n/10 These tran-si-tions are de-ter-min-is-tic gra-di-ent‑flow
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 1921--1922
+[]\TU/lmr/m/n/10 which pro-duces a ge-o-met-ric asym-me-try be-tween
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1939--1940
+[]\TU/lmr/m/n/10 Weak in-ter-ac-tions are short‑ranged be-cause
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 1939--1940
+\TU/lmr/m/n/10 shear‑dom-i-nated tran-si-tions re-quire high cur-va-ture
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 1968--1969
+[]\TU/lmr/m/n/10 In the Gen-er-a-tor Field, this cor-re-sponds to a
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 1994--1995
+[]\TU/lmr/m/n/10 Neu-tri-nos cor-re-spond to min-i-mal‑tor-sion, min-i-
+ []
+
+[19]
+! Undefined control sequence.
+l.2110 \nue
+           ,\quad \nu\mu,\quad \nu_\tau.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[20]
+! Undefined control sequence.
+l.2116 \Delta\phi{\nui
+                      } = \frac{m{\nui}}{K_{TCO}},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> m{\nui 
+                  }
+l.2116 \Delta\phi{\nui} = \frac{m{\nui}}{K_{TCO}}
+                                                 ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.2127 \Delta\phi{\nui
+                      } \ll 1.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.2147 \omegai
+               = \frac{m{\nui}}{K{TCO}}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> m{\nui 
+                  }
+l.2147 \omegai = \frac{m{\nui}}{K{TCO}}
+                                       .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 2197--2198
+ []\TU/lmr/m/n/10 the tor-sional modes prop-a-gate at sub-lu-mi-nal
+ []
+
+[21] [22] [23]
+Underfull \hbox (badness 2744) in paragraph at lines 2476--2477
+ []\TU/lmr/m/n/10 strain‑me-di-ated re-dis-tri-bu-tion of tor-sional
+ []
+
+[24]
+! Undefined control sequence.
+l.2524 \sumi
+             \delta\mathcal{G}^{(i)}{\mu\nu}(x),
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.2537 \sumi
+             Ei
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.2574 ...{(i)} = \phi{\mathrm{geom}}^{(j)} = P^\*
+                                                  .
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.2575    \]
+            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (156.84975pt too wide) detected at line 2587
+\OML/cmm/m/it/10 "[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OML
+/cmm/m/it/10 "[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) []\OML/c
+mm/m/it/10 :
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 2618--2619
+ []\TU/lmr/m/n/10 Macro-scopic co-hered sys-tems (su-per-flu-ids, su-
+ []
+
+[25] [26] [27]
+Underfull \hbox (badness 2846) in paragraph at lines 2835--2836
+ []\TU/lmr/m/n/10 En-tropy is con-fig-u-ra-tion‑space vol-ume of
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 2838--2839
+ []\TU/lmr/m/n/10 White-body ra-di-a-tion is strain‑sat-u-ra-tion
+ []
+
+! Undefined control sequence.
+l.2870 \partialt
+                 \mathcal{G}{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[28]
+! Undefined control sequence.
+l.2958 \partialt
+                 \varepsilon{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[29]
+Underfull \hbox (badness 2111) in paragraph at lines 3060--3061
+ []\TU/lmr/m/n/10 lo-cal cur-va-ture cor-re-sponds to large‑scale
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3062--3063
+ []\TU/lmr/m/n/10 grav-i-ta-tional red-shift arises from tor-
+ []
+
+[30]
+! Undefined control sequence.
+l.3125 \partialt
+                ^2 \mathcal{G}{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3171--3173
+ []\TU/lmr/m/n/10 Light fol-lows geodesics de-ter-mined by the
+ []
+
+[31] [32]
+Underfull \hbox (badness 3601) in paragraph at lines 3335--3336
+ []\TU/lmr/m/n/10 Os-cil-la-tions arise from de-ter-min-is-tic tor-sional
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 3367--3368
+ []\TU/lmr/m/n/10 High‑fre-quency modes prop-a-gate slightly
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 3371--3372
+ []\TU/lmr/m/n/10 Next‑gen-er-a-tion de-tec-tors (Ein-stein Tele-scope,
+ []
+
+[33]
+! Undefined control sequence.
+l.3574 \partialt
+                 \mathcal{G}{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[34]
+! Undefined control sequence.
+l.3591 \partialt
+                 \mathcal{G}{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[35]
+Overfull \hbox (11.52835pt too wide) detected at line 3748
+\OML/cmm/m/it/10 "[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ] = [] [
+] \OML/cmm/m/it/10 :
+ []
+
+! Undefined control sequence.
+l.3769 \partialt
+                 \mathcal{G}{\mu\nu}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing { inserted.
+<to be read again> 
+                   \discretionary 
+l.3822 P^\*
+            = \arg\min{p\in M{46}}
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+If you're confused by all this, try typing `I}' now.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.3824 \]
+         
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+l.3829 \item Select \(p{\mathrm{min}} = \minp
+                                              d_p\).
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[36]
+Underfull \hbox (badness 3601) in paragraph at lines 3892--3893
+ []\TU/lmr/m/n/10 Os-cil-la-tions arise from de-ter-min-is-tic tor-sional
+ []
+
+! Undefined control sequence.
+l.3895 \partialt
+                 \theta = \omega{\mathrm{torsion}}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[37] [38]
+No file generator_field.bbl.
+
+! LaTeX Error: \begin{itemize} on input line 2428 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4122 \end{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[39] (./generator_field.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-08-13>
+ ***********
+)
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 2428 (\begingroup)
+### bottom level
+
+Here is how much of LuaTeX's memory you used:
+ 9029 strings out of 470117
+ 125005,794899 words of node,token memory allocated
+ 1581 words of node memory still in use:
+   10 hlist, 3 vlist, 2 rule, 1 glue, 4 kern, 1 glyph, 249 attribute, 70 glue_sp
+ec, 249 attribute_list nodes
+   avail lists: 1:1,2:864,3:569,4:232,5:501,6:168,7:12542,8:62,9:754,10:19,11:12
+40
+ 37321 multiletter control sequences out of 65536+600000
+ 85 fonts using 26544743 bytes
+ 73i,8n,92p,753b,319s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf><c:/te
+xlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texlive/20
+25/texmf-dist/fonts/opentype/public/lm/lmromandemi10-regular.otf><c:/texlive/202
+5/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf><c:/texlive/2025/texm
+f-dist/fonts/opentype/public/lm/lmroman9-bold.otf><c:/texlive/2025/texmf-dist/fo
+nts/opentype/public/lm/lmroman9-regular.otf><c:/texlive/2025/texmf-dist/fonts/op
+entype/public/lm/lmroman9-italic.otf><c:/texlive/2025/texmf-dist/fonts/opentype/
+public/lm/lmroman10-regular.otf><c:/texlive/2025/texmf-dist/fonts/opentype/publi
+c/lm/lmroman12-bold.otf><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/t
+exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on generator_field.pdf (39 pages, 320955 bytes).
+
+PDF statistics: 238 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
