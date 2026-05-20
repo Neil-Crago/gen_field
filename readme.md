@@ -142,4 +142,4 @@ Any one of these can falsify the theory.
 
 ## Citation
 
-DOI: 10.5281/zenodo.20305180
+Crago, N. (2026). The Generator Field: A Deterministic Tensor-Field Framework for Quantum Phase Evolution and State Finalization (Generator_field). Zenodo. https://doi.org/10.5281/zenodo.20305180
